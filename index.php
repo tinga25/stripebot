@@ -4,7 +4,7 @@
 
 ///https://api.telegram.org/bot<token>/setwebhook?url=<url>
 
-$botToken = "1472905848:AAHj-wDq3UJKkCL61VnuK7w-zOPxadnKjlI"; // Enter ur bot token
+$botToken = "1638003109:AAG9i44hrM4HuJVUiuEoLrSqXMWK6X1p7rw"; // Enter ur bot token
 $website = "https://api.telegram.org/bot".$botToken;
 error_reporting(0);
 $update = file_get_contents('php://input');
@@ -27,7 +27,7 @@ sendMessage($chatId, "<b>Hello there!!%0AType /cmds to know all my commands!!%0A
 //////////=========[Cmds Command]=========//////////
 
 elseif ((strpos($message, "!cmds") === 0)||(strpos($message, "/cmds") === 0)){
-sendMessage($chatId, "<u>Bin lookup:</u> <code>!bin</code> xxxxxx%0A<u>SK Key Check:</u> <code>!sk</code> sk_live%0A<u>Convergepay:</u> <code>!cpay</code> xxxxxxxxxxxxxxxx|xx|xx|xxx%0A<u>Stripe:</u> <code>!chk</code> xxxxxxxxxxxxxxxx|xx|xx|xxx%0A<u>Info:</u> <code>/info</code> To know ur info%0A%0A<b>Bot Made by Dragon</b>");
+sendMessage($chatId, "<u>Bin lookup:</u> <code>!bin</code> xxxxxx%0A<u>SK Key Check:</u> <code>!sk</code> sk_live%0A<u> To know ur info%0A%0A<b>Bot Made by Aamir </b>");
 }
 
 //////////=========[Info Command]=========//////////
